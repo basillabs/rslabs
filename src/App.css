@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i');
+
+:root {
+  --smoke: #F0F4F7;
+  --smokeShadow: #E5E9EE;
+  --blue: #1377EC;
+  --charcoal: #111315;
+}
+
+html, body {
+  font-family: 'PT Serif', serif;
+  line-height: 1.4;
+  font-size: 18px;
+  color: var(--charcoal);
+}
+
+.nav {
+  border-bottom: 1px solid var(--smoke);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.nav-logo {
+  position: relative;
+  top: 5px;
+}
+
+.nav-browse {
+  float: left;
+  position: absolute;
+  left: 63px;
+  top: 17px;
+}
+
+.container {
+  max-width: 40em;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  background-color: var(--smoke);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: var(--charcoal);
+  font-family: inherit;
+  width: 100%;
+  position: relative;
+  top: -2px;
+  outline: none;
+}
+
+.input:focus {
+  bordedr: 2px solid var(--smokeShadow);
+}
+
+.block { display: block; }
+.inline-block { display: inline-block; }
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tc { text-align: center; }
+
+.mt1 { margin-top: 10px; }
+.mt2 { margin-top: 20px; }
+.mt3 { margin-top: 50px; }
+.mt4 { margin-top: 100px; }
+
+.w-40 {
+  width: 40em;
+}
