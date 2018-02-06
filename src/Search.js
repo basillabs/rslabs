@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { HotKeys } from 'react-hotkeys';
 import "./search.css";
 
 const map = {
